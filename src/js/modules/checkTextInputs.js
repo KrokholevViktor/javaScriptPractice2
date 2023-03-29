@@ -1,4 +1,4 @@
-const chekTextInputs = (selector) => {
+const checkTextInputs = (selector) => {
     const txtInputs = document.querySelectorAll(selector);
 
     txtInputs.forEach(input => {
@@ -10,4 +10,4 @@ const chekTextInputs = (selector) => {
     });
 };
 
-export default chekTextInputs
+export default checkTextInputs
